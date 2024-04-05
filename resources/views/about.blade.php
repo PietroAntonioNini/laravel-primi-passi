@@ -9,11 +9,11 @@
 <body>
     <div>
         <div>
+            <a href="{{ route('home') }}"><-</a>
             <a href="{{ route('contatti') }}">Contatti</a>
-            <a href="{{ route('about') }}">About</a>
         </div>
 
-        <p>Ciao {{ $name }} !</p>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi accusamus iusto eos sapiente. Quidem quis, tempora laboriosam quia excepturi, assumenda repudiandae porro similique aspernatur molestias a perferendis minima accusantium quisquam?</p>
     </div>
 </body>
 </html>

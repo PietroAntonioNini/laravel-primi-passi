@@ -9,11 +9,13 @@
 <body>
     <div>
         <div>
-            <a href="{{ route('contatti') }}">Contatti</a>
+            <a href="{{ route('home') }}"><-</a>
             <a href="{{ route('about') }}">About</a>
         </div>
 
-        <p>Ciao {{ $name }} !</p>
+        <p>Ecco i contatti:</p>
+        <span>+39 3383456774</span>
+        <span>+39 0759276563</span>
     </div>
 </body>
 </html>
